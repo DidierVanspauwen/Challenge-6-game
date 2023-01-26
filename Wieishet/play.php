@@ -12,8 +12,39 @@
 <div class="home">
    <h1><a href="index.php">Home</a><h1>
     </div>
+ 
+<!-- <div id="genderBtn">
+  <input type="radio" name="gender" value="female">Female
+  <input type="radio" name="gender" value="male">Male
+  <span class="error">* <?php echo $genderErr;?></span>
+  <br><br>
+  <input type="submit" name="submit" value="Submit"> 
+</div> -->
 
     <!-- Begin Boxes -->
+
+
+<div class="text">
+
+<h3>Jongen / Meisje ?<h3>
+
+<h3>2 Tanden?<h3>
+
+<h3>Wit of geel oranje achtige ogen?<h3>
+
+<h3>Heeft hij/zij wenkbrauwen?<h3>
+
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 <center>
@@ -82,9 +113,29 @@
 
 
 
+<!-- <?php
+$genderErr  = "";
+if (empty($_POST["gender"])) {
+    $genderErr = "Gender is required";
+  } else {
+    $gender = test_input($_POST["gender"]);
+  }
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+
+?>
 
 
-
+<?php
+print "<h2>Your Input:</h2>";
+print "<br>";
+print $gender;
+?> -->
 
 </body>
 </html>
