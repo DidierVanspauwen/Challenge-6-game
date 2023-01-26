@@ -1,26 +1,55 @@
 # Uittesten voor programma
 import random
 
-lijst = ["1","2","3","4","5"]
+def printBord(bord):
+    # print(bord)
+    for rij in bord: 
+        # print(rij)
+        for persoon in rij:
+            printPersoon = "{0} {1} {2}".format(persoon["naam"], persoon["geslcaht"], persoon["kleur"])
+            print(printPersoon)
 
-z = random.choice(lijst)
+piet = {
+    "geslcaht" : "man",
+    "kleur" : "blauw",
+    "beschikbaarheid" : True,
+    "target" : False,
+    "naam" : "piet"
+}
 
-cijfer = input("")
+jan = {
+    "geslcaht" : "man",
+    "kleur" : "rood",
+    "beschikbaarheid" : True,
+    "target" : False,
+    "naam" : "jan"
+}
 
-while cijfer != z:
-    print("probeer opnieuw")
-    cijfer = input("")
+anna = {
+    "geslcaht" : "vrouw",
+    "kleur" : "blauw",
+    "beschikbaarheid" : True,
+    "target" : False,
+    "naam" : "anna"
+}
 
-print("goed zo")
+chantal = {
+    "geslcaht" : "vrouw",
+    "kleur" : "rood",
+    "beschikbaarheid" : True,
+    "target" : False,
+    "naam" : "chantal"
+}
 
+rij1 = [piet, jan]
+rij2 = [anna, chantal]
+# rij1 = [1, 2]
+# rij2 = [3, 4]
+kolom = [rij1, rij2]
 
+targetRij = random.choice(kolom)
+targetPersoon = random.choice(targetRij)
+targetPersoon["target"] = True
 
-# cijfer2 = input("Is de persoon een man? ")
-# valid_inputs = ["ja","nee"]
-# while cijfer2 not in valid_inputs:
-#     cijfer2 = input("Try again ")
-
-# if cijfer2 == "ja":
-#     print("ja")
-# else:
-#     print("nee")
+# print(targetPersoon)
+kolom2 = printBord(kolom)
