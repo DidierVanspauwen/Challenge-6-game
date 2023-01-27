@@ -1,3 +1,6 @@
+
+// Is niet meer nodig 
+
 // Get the input field
 var input = document.getElementById("myInput");
 
