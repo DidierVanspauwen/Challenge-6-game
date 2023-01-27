@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Regels</title>
+    <title>Wie is het?</title>
     <link rel="stylesheet" href="play.css">
 </head>
 <body>
@@ -26,19 +26,23 @@
 
 <div class="text">
 
-<h3>Jongen / Meisje ?<h3>
+<h3>Jongen of een Meisje?<h3>
 
-<h3>2 Tanden?<h3>
+<h3>Heeft hij/zij 2 tanden of meer?<h3>
 
 <h3>Wit of geel oranje achtige ogen?<h3>
 
 <h3>Heeft hij/zij wenkbrauwen?<h3>
 
+<h3>Heeft hij/zij een hoofddeksel op?<h3>
+
+<h3>Draagt hij/zij schoenen?<h3>
+
+<h3>Draagt hij/zij een broek?<h3>
+
+<h3>Draagt hij/zij een jurk?<h3>
+
 </div>
-
-
-
-
 
 
 
@@ -113,29 +117,8 @@
 
 
 
-<!-- <?php
-$genderErr  = "";
-if (empty($_POST["gender"])) {
-    $genderErr = "Gender is required";
-  } else {
-    $gender = test_input($_POST["gender"]);
-  }
-
-function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-}
-
-?>
 
 
-<?php
-print "<h2>Your Input:</h2>";
-print "<br>";
-print $gender;
-?> -->
 
 </body>
 </html>

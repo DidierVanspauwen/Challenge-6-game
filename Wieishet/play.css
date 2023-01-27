@@ -6,8 +6,9 @@ body{
     /* position: fixed; */
     background-position: fixed; 
     /* margin: 0px; */
-    overflow: hidden; /*Hide scrollbars*/
+    /* overflow: hidden; Hide scrollbars */
 }
+
 
 /* Button css */
 

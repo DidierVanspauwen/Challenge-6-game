@@ -3,22 +3,33 @@ body {
     text-align: center;
     font-family: fantasy;
     font-size: 60px;
+    background-image: url("./pics/wallpapersden.com_spongebob-2020_1920x1080.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+    background-position: fixed; 
+    /* margin: 0px; */
+    overflow: hidden; /*Hide scrollbars*/
 }
 
 #r1 {
     color: gold;
-}
+    z-index: -1
+    }
 
 #r2 {
     color: black;
+    z-index: 2;
 }
 
 #r3 a {
     color: blue;
     text-decoration: none;
+    z-index: 3;
 }
 
 #r4 a {
     color: brown;
     text-decoration: none;
+    z-index: 0;
 }

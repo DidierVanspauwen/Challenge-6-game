@@ -1,8 +1,7 @@
    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    Online
-    "Who is it?"
+
     <div id="r1">Online</div>
     <div id="r2">"Who is it?"</div><br><br> 
 

@@ -1,3 +1,66 @@
 body{
-    font-size: xx-large;
+    /* font-family: fantasy; */
+    background-image: url("./pics/wallpapersden.com_spongebob-squarepants-2021-gaming_1920x1080.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+    background-position: fixed; 
+    /* margin: 0px; */
+    overflow: hidden; /*Hide scrollbars*/
+}
+
+.homeBtn a{
+    position: relative;
+    float:right;
+    top: 660px;
+    font-family: fantasy;
+    text-decoration: none;
+    font-size:40px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;  
+    color: blanchedalmond;
+    z-index: 1;
+}
+.homeBtn a:hover{
+background-color: #ff9800;
+}
+
+h1{
+    position: relative;
+    top: -45px;
+    font-family: fantasy;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0 0 8px black;
+    color:bisque;
+    
+}
+
+h2{
+    font-family: fantasy;
+    text-shadow: 0 0 8px black;
+    font-size: 30px;
+    text-align: center;
+    color:bisque;
+    margin-left:50px ;
+    margin-right:50px ;
+}
+h3{
+    font-family: fantasy;
+    text-shadow: 0 0 8px black;
+    font-size: 30px;
+    text-align: center;
+    color:bisque;
+    margin-left:50px ;
+    margin-right:50px ;
+}
+h4{
+    font-family: fantasy;
+    text-shadow: 0 0 8px black;
+    font-size: 30px;
+    text-align: center;
+    color:bisque;
+    margin-left:50px ;
+    margin-right:50px ;
 }
