@@ -13,88 +13,34 @@
    <h1><a href="index.php">Home</a><h1>
     </div>
  
+<!-- <div id="genderBtn">
+  <input type="radio" name="gender" value="female">Female
+  <input type="radio" name="gender" value="male">Male
+  <span class="error">* <?php echo $genderErr;?></span>
+  <br><br>
+  <input type="submit" name="submit" value="Submit"> 
+</div> -->
+
+    <!-- Begin Boxes -->
+
 
 <div class="text">
 
 <h3>Jongen of een Meisje?<h3>
-<label class="container">Jongen
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label> 
-<label class="container">Meisje
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label>
 
 <h3>Heeft hij/zij 2 tanden of meer?<h3>
-<label class="container">2 tanden
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label> 
-<label class="container">Meer tanden
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label>
 
 <h3>Wit of geel oranje achtige ogen?<h3>
-<label class="container">Wit
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label> 
-<label class="container">Geel/orangje
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label>
 
 <h3>Heeft hij/zij wenkbrauwen?<h3>
-<label class="container">Wel wenkbrauwen
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label> 
-<label class="container">Geen wenkbrauwen
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label>
 
 <h3>Heeft hij/zij een hoofddeksel op?<h3>
-<label class="container">Ja
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label> 
-<label class="container">Nee
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label>
 
 <h3>Draagt hij/zij schoenen?<h3>
-<label class="container">Ja
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label> 
-<label class="container">Nee
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label>  
 
 <h3>Draagt hij/zij een broek?<h3>
-<label class="container">Ja
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label> 
-<label class="container">Nee
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label>
 
 <h3>Draagt hij/zij een jurk?<h3>
-<label class="container">Ja
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label> 
-<label class="container">Nee
-  <input type="radio" name="radio">
-  <span class="checkmark"></span>
-</label>
 
 </div>
 
